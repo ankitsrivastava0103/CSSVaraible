@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoped CSS Variables and JS</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h2>Update CSS Variables with <span>JS</span></h2>
+        </div>
+        <div class="controls">
+            <label for="spacing">Spacing:</label>
+            <input id="spacing" type="range" name="spacing" min="10" max="100" value="10" data-sizing="px" />
+
+            <label for="blur">Blur:</label>
+            <input id="blur" type="range" name="blur" min="0" max="25" value="10" data-sizing="px" />
+
+            <label for="base">Base Color</label>
+            <input id="base" type="color" name="base" value="#ffc600" />
+
+            <label for="border-radius">Border Radius:</label>
+            <input id="border-radius" type="range" name="border-radius" min="0" max="50" value="10" data-sizing="px" />
+        </div>
+        <div class="picture">
+            <img
+                src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2019/03/19142606/AdobeStock_491912561-500x500.jpeg" />
+        </div>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
